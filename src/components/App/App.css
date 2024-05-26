@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  margin: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  border: #000, 0.5px, solid;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.input input {
+  width: 320px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.todo-item p {
+  color: #000;
+  text-decoration: none;
+}
+
+.todo-item.completed p {
+  color: #888;
+  text-decoration: line-through;
+}
+
+button.delete,
+button.add {
+  background-color: #000;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+button.add {
+  background-color: cornflowerblue;
+  height: fit-content;
+}
